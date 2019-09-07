@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    
+}
+header{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: black;
+   
+}
+h1{
+color: white;
+}
+
+.container{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+   
+      
+    
+}
+.movieResult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+    
+}
+.img{
+     box-sizing: border-box;
+}
+
